@@ -1,0 +1,32 @@
+#overall {
+    padding-left: 7%;
+    margin: auto;
+}
+#instructions {
+    margin: 2em 3em 2em 3em;
+    float: left;
+    overflow: hidden;
+}
+
+#board {
+    margin: 3em 0 0 3em;
+    padding: 1em 1em 1em 1em;
+    display:inline-block;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.toggle {
+    margin: 0.5em;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px #999;
+    outline: none;
+}
+
+.toggle:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
